@@ -9,6 +9,6 @@ function cantidadDeDivisores(dividendo: number) {
     console.log('La cantidad total de divisores es de:',contador);
 }
 function esMultiplo(numero: number, divisor: number): boolean {
-    return numero % divisor == 0
+    return ((numero % divisor) == 0) //LAS CONDICIONES VAN ENTRE PARENTESIS
 }
 cantidadDeDivisores(10);
