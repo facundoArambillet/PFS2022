@@ -1,7 +1,7 @@
 import * as readlineSync from 'readline-sync';
 let palabraUsuario : string = readlineSync.question('Ingrese una palabra: ');
 let i : number;
-function convertirCameCasel (palabra) {
+function convertirCamelCase (palabra) {
     for(i = 0; i < palabra.length; i++) {
         if(palabraUsuario[i] == ' ') {
            console.log(palabra[i+1].toUpperCase()) 
@@ -13,4 +13,4 @@ function convertirCameCasel (palabra) {
     }
     
 }
-convertirCameCasel(palabraUsuario);
+convertirCamelCase(palabraUsuario);
