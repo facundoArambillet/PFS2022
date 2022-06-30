@@ -1,0 +1,35 @@
+body {
+    background-color: #d1c26d;
+}
+.columnas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+div.primerdiv {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 20px;
+    left: 450px;
+
+}
+
+div.segundodiv {
+    position: relative;
+    top: 60px;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+}
+.imagen {
+    width: 500px;
+    height: 250px;
+}

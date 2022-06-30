@@ -1,0 +1,74 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+.listas {
+    width: 25%;
+    background-color: #3E6493;
+}
+.detalles {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+}
+.iconos-medio {
+    width: 5%;
+    text-align: right;
+}
+span {
+    color: #FFFFFF;
+}
+#perfil {
+    width: 75%;
+    height: 38%;
+    border-radius: 50%;
+    margin-left: 12%;
+    margin-top: 15%;
+}
+.datos-personales {
+    width:95%;
+    margin-right: 5%;
+    margin-left: 1%;
+
+}
+.detalles-margen {
+    margin-left: 1%;
+}
+.iconos {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    justify-content: space-between;
+}
+.tamaño-iconos {
+    width: 70%;
+}
+
+.presentacion {
+    height: 33%;
+    border-bottom: 3px #EDEDED solid;
+}
+.hobbies {
+    height: 33%;
+    border-bottom: 3px #EDEDED solid;
+}
+.div-1 {
+    height: 33%;
+}
+.img-hobbies {
+    height: 33%;
+    margin-top: 70%;
+}
+.img-certificaciones {
+    margin-top: 45%;
+}
+#entretenimiento {
+    width: 70%;
+}
+
+#estudios {
+    width: 70%;
+}
+
+

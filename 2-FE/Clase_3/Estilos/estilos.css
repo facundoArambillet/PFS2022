@@ -1,0 +1,8 @@
+.container-fluid img {
+    width: 100%;
+    border: 2px black solid;
+    margin-left: 1%;
+}
+#titulo {
+    margin-bottom: 3%;
+}
