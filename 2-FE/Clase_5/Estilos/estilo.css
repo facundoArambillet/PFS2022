@@ -1,0 +1,9 @@
+.navbar-brand {
+    color: white;
+    font-size: x-large;
+    padding-left: 45%;
+}
+
+#contador {
+    width: 21%;
+}
