@@ -1,0 +1,13 @@
+
+.navbar-brand {
+    color: white;
+    font-size: x-large;
+    padding-left: 45%;
+}
+#ruleta {
+    width: 50%;
+    height: 550px;
+}
+#margen {
+    justify-content: center;
+}
