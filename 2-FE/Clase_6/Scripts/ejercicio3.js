@@ -17,7 +17,7 @@ boton.addEventListener('click', () => {
 })
 eliminar.addEventListener('click', () => {
     let ultimoLi = lista.lastElementChild;
-    ultimoLi.remove(ultimoLi);
+    ultimoLi.remove();
 
 })
 function ocultar() {
