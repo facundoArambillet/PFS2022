@@ -21,6 +21,9 @@ for (let i = 0; i < matriz.length; i++) {
 reservar.addEventListener('click', () => {
     let filaValor = filaHtml.value
     let columnaValor = columnaHtml.value
+    if(filaValor > 20 || columnaValor > 3) {
+        alert('Los Valores son invalidos vuelva a intentar');
+    }
     let slot = document.getElementById(filaValor + '-' + columnaValor)
     slot.id = 'parrafoRojo'
     slot.innerHTML = 'X'
