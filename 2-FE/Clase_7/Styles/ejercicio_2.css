@@ -1,0 +1,67 @@
+.posicion1 {
+    position: relative;
+    margin: 200px;
+}
+
+.posicion2 {
+    position: relative;
+    margin: 80px;
+}
+
+.posicion3 {
+    position: relative;
+    margin: 350px;
+}
+
+.posicion4 {
+    position: relative;
+    margin: 500px;
+}
+
+.width1 {
+    width: 500px;
+}
+
+.width2 {
+    width: 250px;
+}
+
+.width3 {
+    width: 300px;
+}
+
+.width4 {
+    width: 100px;
+}
+
+.heigth1 {
+    height: 250px;
+}
+
+.heigth2 {
+    height: 500px;
+}
+
+.heigth3 {
+    height: 300px;
+}
+
+.heigth4 {
+    height: 150px;
+}
+
+.color1 {
+    background-color: aqua;
+}
+
+.color2 {
+    background-color: blue;
+}
+
+.color3 {
+    background-color: blueviolet;
+}
+
+.color4 {
+    background-color: crimson;
+}
