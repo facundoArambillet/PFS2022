@@ -5,11 +5,11 @@ let reservar = document.querySelector('#btn')
 let filaHtml = document.querySelector('#tbxFila');
 let columnaHtml = document.querySelector('#tbxColumna')
 let matriz = new Array(20);
-let asientos = ['Izquierda', 'Medio', 'Derecha'];
+
 
 
 for (let i = 0; i < matriz.length; i++) {
-    matriz[i] = asientos;
+    matriz[i] = 0
 }
 
 /*for (let filas = 0; filas < matriz.length; filas++) {
@@ -38,7 +38,6 @@ for (let filas = 0; filas < matriz.length; filas++) {
 
     }
     crear(filas + 1);
-    console.log(texto);
 }
 function crearTd() {
     let td = document.createElement('td');
