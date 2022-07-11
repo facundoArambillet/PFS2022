@@ -1,0 +1,15 @@
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+.formulario {
+    width: 40%;
+    border: 2px black solid;
+}
+#titulo {
+    color: white;
+}
+.envio {
+    display: flex;
+    justify-content: flex-end;
+}
