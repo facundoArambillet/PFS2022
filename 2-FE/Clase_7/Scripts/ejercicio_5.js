@@ -4,6 +4,8 @@ let seleccionador = document.querySelector('.seleccionador');
 let reservar = document.querySelector('#btn')
 let filaHtml = document.querySelector('#tbxFila');
 let columnaHtml = document.querySelector('#tbxColumna')
+let limpiarReserva = document.querySelector("#btn-reservas");
+let slot = "";
 let matriz = new Array(20);
 
 
@@ -24,11 +26,14 @@ reservar.addEventListener('click', () => {
     if(filaValor > 20 || columnaValor > 3) {
         alert('Los Valores son invalidos vuelva a intentar');
     }
-    let slot = document.getElementById(filaValor + '-' + columnaValor)
-    slot.id = 'parrafoRojo'
+     slot = document.getElementById(filaValor + '-' + columnaValor)
+    slot.classList = 'parrafoRojo'
     slot.innerHTML = 'X'
 })
-
+limpiarReserva.addEventListener('click', () => {
+    slot.classList.remove('parrafoRojo')
+    slot.innerHTML = "0"
+})
 crearTd()
 for (let filas = 0; filas < matriz.length; filas++) {
     console.log("Fila: ", (filas + 1));
@@ -67,19 +72,22 @@ function crear(num) {
     else {
         tdFila.innerHTML = `Fila ${num}`;
     }
-    let p_1 = document.createElement('p');
-    let p_2 = document.createElement('p');
+    tr.appendChild(tdFila);
+    for(let i = 1; i <= 3; i++) {
+        let p = document.createElement('p');
+        p.innerHTML = '0';
+        p.id = `${num}-${i}`
+        tr.appendChild(p);
+    }
+   /* let p_2 = document.createElement('p');
     let p_3 = document.createElement('p');
-    p_1.innerHTML = '0';
     p_2.innerHTML = '0';
     p_3.innerHTML = '0';
-    p_1.id = `${num}-1`
     p_2.id = `${num}-2`
     p_3.id = `${num}-3`
-    tr.appendChild(tdFila);
-    tr.appendChild(p_1);
     tr.appendChild(p_2);
     tr.appendChild(p_3);
+    */
     tr.classList = 'asientos';
     formulario.appendChild(tr);
 }

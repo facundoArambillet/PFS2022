@@ -65,3 +65,6 @@
 .color4 {
     background-color: crimson;
 }
+.oculta {
+    visibility: hidden;
+}
